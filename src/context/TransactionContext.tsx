@@ -12,6 +12,114 @@ const TransactionContext = createContext<TransactionContextType | undefined>(und
 
 const mockTransactions: Transaction[] = [
   {
+                  id: '271',
+    type: 'payment',
+    amount: 12.38,
+    recipient: 'Deutsche Post AG',
+    description: 'Shipping fee',
+    date: new Date('2025-09-22'),
+    status: 'completed'
+  },
+  {
+                      id: '270',
+    type: 'received',
+    amount: 36.70,
+    sender: 'Alexandra Mößner',
+    description: 'Payment received',
+    date: new Date('2025-09-21'),
+    status: 'completed'
+  },
+  {
+                   id: '270',
+    type: 'received',
+    amount: 45.80,
+    sender: 'Martina Lüneberg',
+    description: 'Payment received',
+    date: new Date('2025-09-21'),
+    status: 'completed'
+  },
+  {
+                      id: '270',
+    type: 'received',
+    amount: 45.80,
+    sender: 'Monika Berger',
+    description: 'Payment received',
+    date: new Date('2025-09-20'),
+    status: 'completed'
+  },
+  {
+              id: '271',
+    type: 'payment',
+    amount: 43.33,
+    recipient: 'Deutsche Post AG',
+    description: 'Shipping fee',
+    date: new Date('2025-09-19'),
+    status: 'completed'
+  },
+  {
+                               id: '270',
+    type: 'received',
+    amount: 33.80,
+    sender: 'Sarah Westphal',
+    description: 'Payment received',
+    date: new Date('2025-09-17'),
+    status: 'completed'
+  },
+  {
+                           id: '270',
+    type: 'received',
+    amount: 83.55,
+    sender: 'Vanessa Buß',
+    description: 'Payment received',
+    date: new Date('2025-09-17'),
+    status: 'completed'
+  },
+  {
+                           id: '270',
+    type: 'received',
+    amount: 26.85,
+    sender: 'Sandra Schulze',
+    description: 'Payment received',
+    date: new Date('2025-09-17'),
+    status: 'completed'
+  },
+  {
+                       id: '270',
+    type: 'received',
+    amount: 26.85,
+    sender: 'Carrie Liepelt',
+    description: 'Payment received',
+    date: new Date('2025-09-17'),
+    status: 'completed'
+  },
+  {
+                   id: '270',
+    type: 'received',
+    amount: 57.80,
+    sender: 'Rieke Nordmann',
+    description: 'Payment received',
+    date: new Date('2025-09-15'),
+    status: 'completed'
+  },
+  {
+         id: '270',
+    type: 'received',
+    amount: 75.80,
+    sender: 'Denise Rathkamp',
+    description: 'Payment received',
+    date: new Date('2025-09-14'),
+    status: 'completed'
+  },
+  {
+           id: '270',
+    type: 'received',
+    amount: 51.80,
+    sender: 'Johannes Richter',
+    description: 'Payment received',
+    date: new Date('2025-09-13'),
+    status: 'completed'
+  },
+  {
           id: '271',
     type: 'payment',
     amount: 12.38,
