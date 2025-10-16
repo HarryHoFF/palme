@@ -12,6 +12,33 @@ const TransactionContext = createContext<TransactionContextType | undefined>(und
 
 const mockTransactions: Transaction[] = [
   {
+                                                  id: '270',
+    type: 'received',
+    amount: 75.80,
+    sender: 'Sibylle Henkel',
+    description: 'Payment received',
+    date: new Date('2025-10-16'),
+    status: 'completed'
+  },
+  {
+                                                  id: '270',
+    type: 'received',
+    amount: 32.85,
+    sender: 'Stefanie Krause',
+    description: 'Payment received',
+    date: new Date('2025-10-16'),
+    status: 'completed'
+  },
+  {
+                                          id: '271',
+    type: 'payment',
+    amount: 6.19,
+    recipient: 'Deutsche Post AG',
+    description: 'Shipping fee',
+    date: new Date('2025-10-16'),
+    status: 'completed'
+  },
+  {
                                               id: '270',
     type: 'received',
     amount: 45.15,
