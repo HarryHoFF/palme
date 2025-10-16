@@ -8,7 +8,7 @@ const mockUser: User = {
   username: 'GoonDocksHaderslev',
   email: 'goondocks@haderslev.dk',
   fullName: 'GoonDocks Haderslev',
-  balance: 6797.32
+  balance: 6899.79
 };
 
 export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
