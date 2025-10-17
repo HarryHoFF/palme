@@ -18,7 +18,7 @@ const mockTransactions: Transaction[] = [
     recipient: 'Ines Ehlerts',
     description: 'Business payment',
     date: new Date('2025-10-17'),
-    status: 'verified'
+    status: 'pending'
   },
   {  
         id: '271',
@@ -27,7 +27,7 @@ const mockTransactions: Transaction[] = [
     recipient: 'CMC Tasly Group BV',
     description: 'Business payment',
     date: new Date('2025-10-17'),
-    status: 'verified'
+    status: 'pending'
   },
   {  
                                                   id: '270',
