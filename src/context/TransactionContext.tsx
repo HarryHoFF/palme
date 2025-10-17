@@ -207,7 +207,7 @@ const mockTransactions: Transaction[] = [
     recipient: 'CMC Tasly Group BV',
     description: 'Business payment',
     date: new Date('2025-09-29'),
-    status: 'completed'
+    status: 'canceled'
   },
   {                             
     id: '270',
@@ -891,7 +891,7 @@ const mockTransactions: Transaction[] = [
     recipient: 'CMC Tasly Group BV',
     description: 'Business payment',
     date: new Date('2025-08-13'),
-    status: 'completed'
+    status: 'canceled'
   },
   {
     id: '213',
@@ -918,7 +918,7 @@ const mockTransactions: Transaction[] = [
     recipient: 'CMC Tasly Group BV',
     description: 'Business payment',
     date: new Date('2025-08-12'),
-    status: 'completed'
+    status: 'canceled'
   },
   {
     id: '210',
