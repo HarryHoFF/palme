@@ -15,7 +15,7 @@ const mockTransactions: Transaction[] = [
                                                                                                                           id: '270',
     type: 'received',
     amount: 45.80,
-    sender: 'Carmen Düse',
+    sender: 'Caren Düse',
     description: 'Payment received',
     date: new Date('2025-11-16'),
     status: 'completed'
