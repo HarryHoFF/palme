@@ -12,6 +12,123 @@ const TransactionContext = createContext<TransactionContextType | undefined>(und
 
 const mockTransactions: Transaction[] = [
   {
+                                                                                                                                                                    id: '270',
+    type: 'received',
+    amount: 26.85,
+    sender: 'Jasmin Radmacher',
+    description: 'Payment received',
+    date: new Date('2025-11-24'),
+    status: 'completed'
+  },
+  {
+                                                                                                                                                                id: '270',
+    type: 'received',
+    amount: 75.70,
+    sender: 'Beate Reyer',
+    description: 'Payment received',
+    date: new Date('2025-11-24'),
+    status: 'completed'
+  },
+  {
+                                                                                                                                                            id: '270',
+    type: 'received',
+    amount: 26.85,
+    sender: 'Inga Golus',
+    description: 'Payment received',
+    date: new Date('2025-11-23'),
+    status: 'completed'
+  },
+  {
+                                                                                                                                                        id: '270',
+    type: 'received',
+    amount: 28.35,
+    sender: 'Monic Zaumseil',
+    description: 'Payment received',
+    date: new Date('2025-11-22'),
+    status: 'completed'
+  },
+  {
+                                                                                          id: '271',
+    type: 'payment',
+    amount: 24.76,
+    recipient: 'Deutsche Post AG',
+    description: 'Shipping fee',
+    date: new Date('2025-11-21'),
+    status: 'completed'
+  },
+  {
+                                                                                                                                                    id: '270',
+    type: 'received',
+    amount: 75.60,
+    sender: 'Stefanie Zachmann',
+    description: 'Payment received',
+    date: new Date('2025-11-20'),
+    status: 'completed'
+  },
+  {
+                                                                                                                                                id: '270',
+    type: 'received',
+    amount: 43.80,
+    sender: 'Mona Plieninger',
+    description: 'Payment received',
+    date: new Date('2025-11-20'),
+    status: 'completed'
+  },
+  {
+                                                                                                                                            id: '270',
+    type: 'received',
+    amount: 43.70,
+    sender: 'Cindy Meier-Georgi',
+    description: 'Payment received',
+    date: new Date('2025-11-20'),
+    status: 'completed'
+  },
+  {
+                                                                                                                                        id: '270',
+    type: 'received',
+    amount: 29.75,
+    sender: 'Oliver Fleischer',
+    description: 'Payment received',
+    date: new Date('2025-11-20'),
+    status: 'completed'
+  },
+  {
+                                                                                      id: '271',
+    type: 'payment',
+    amount: 30.56,
+    recipient: 'Deutsche Post AG',
+    description: 'Shipping fee',
+    date: new Date('2025-11-19'),
+    status: 'completed'
+  },
+  {
+                                                                                                                                    id: '270',
+    type: 'received',
+    amount: 32.35,
+    sender: 'Yasmin Smolka',
+    description: 'Payment received',
+    date: new Date('2025-11-19'),
+    status: 'completed'
+  },
+  {
+                                                                                                                                id: '270',
+    type: 'received',
+    amount: 26.85,
+    sender: 'Carrie Liepelt',
+    description: 'Payment received',
+    date: new Date('2025-11-18'),
+    status: 'completed'
+  },
+  {
+                                                                                                                              id: '270',
+    type: 'received',
+    amount: 87.60,
+    sender: 'Michelle Bittorf',
+    description: 'Payment received',
+    date: new Date('2025-11-18'),
+    status: 'completed'
+  },
+  {
                                                                                       id: '271',
     type: 'payment',
     amount: 69.59,
