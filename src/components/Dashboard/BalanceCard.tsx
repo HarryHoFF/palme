@@ -22,7 +22,7 @@ const BalanceCard: React.FC<BalanceCardProps> = ({ showBalance, onToggleBalance,
   return (
     <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg p-6 text-white">
       <div className="flex items-center justify-between mb-4">
-        <h2 className="text-lg font-semibold">PayPal Erhvervs BETA Balance</h2>
+        <h2 className="text-lg font-semibold">PayPal Erhvervs Balance</h2>
         <button
           onClick={onToggleBalance}
           className="p-1 hover:bg-white/20 rounded transition-colors"
