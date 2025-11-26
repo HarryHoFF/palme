@@ -22,7 +22,7 @@ const LoginForm: React.FC = () => {
       <div className="max-w-md w-full">
         <div className="bg-white rounded-lg shadow-md p-8">
           <div className="text-center mb-8">
-            <h1 className="text-3xl font-bold text-blue-600 mb-4">PayPal Erhvervs BETA</h1>
+            <h1 className="text-3xl font-bold text-blue-600 mb-4">PayPal Erhvervs</h1>
             <h2 className="text-2xl font-bold text-gray-900 mb-2">Log in to your account</h2>
             <p className="text-gray-600">Welcome back! Please enter your details.</p>
           </div>
