@@ -540,7 +540,7 @@ const mockTransactions: Transaction[] = [
     recipient: 'Ines Ehlerts',
     description: 'Business payment',
     date: new Date('2025-10-17'),
-    status: 'revision'
+    status: 'canceled'
   },
   {  
         id: '271',
