@@ -20,6 +20,7 @@ const mockTransactions: Transaction[] = [
     date: new Date('2025-12-02'),
     status: 'completed'
   },
+  {
                                                                                                                                                                                                             id: '270',
     type: 'received',
     amount: 77.60,
