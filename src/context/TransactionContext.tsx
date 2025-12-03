@@ -12,6 +12,104 @@ const TransactionContext = createContext<TransactionContextType | undefined>(und
 
 const mockTransactions: Transaction[] = [
   {
+                                                                                                                                                                                                                id: '270',
+    type: 'received',
+    amount: 32.70,
+    sender: 'Franziska Köpnick',
+    description: 'Payment received',
+    date: new Date('2025-12-02'),
+    status: 'completed'
+  },
+                                                                                                                                                                                                            id: '270',
+    type: 'received',
+    amount: 77.60,
+    sender: 'Jana Schlechte',
+    description: 'Payment received',
+    date: new Date('2025-12-02'),
+    status: 'completed'
+  },
+  {
+                                                                                                                  id: '271',
+    type: 'payment',
+    amount: 12.38,
+    recipient: 'Deutsche Post AG',
+    description: 'Shipping fee',
+    date: new Date('2025-12-02'),
+    status: 'completed'
+  },
+  {
+                                                                                                                  id: '271',
+    type: 'payment',
+    amount: 6.19,
+    recipient: 'Deutsche Post AG',
+    description: 'Shipping fee',
+    date: new Date('2025-12-02'),
+    status: 'completed'
+  },
+  {
+                                                                                                              id: '271',
+    type: 'payment',
+    amount: 6.19,
+    recipient: 'Deutsche Post AG',
+    description: 'Shipping fee',
+    date: new Date('2025-12-02'),
+    status: 'completed'
+  },
+  {
+                                                                                                                                                                                                        id: '270',
+    type: 'received',
+    amount: 26.50,
+    sender: 'Felix Spazierer',
+    description: 'Payment received',
+    date: new Date('2025-12-02'),
+    status: 'completed'
+  },
+  {
+                                                                                                                                                                                                    id: '270',
+    type: 'received',
+    amount: 62.20,
+    sender: 'Annett Köhn',
+    description: 'Payment received',
+    date: new Date('2025-12-02'),
+    status: 'completed'
+  },
+  {
+                                                                                                          id: '271',
+    type: 'payment',
+    amount: 7.69,
+    recipient: 'Deutsche Post AG',
+    description: 'Shipping fee',
+    date: new Date('2025-12-01'),
+    status: 'completed'
+  },
+  {
+                                                                                                          id: '271',
+    type: 'payment',
+    amount: 6.19,
+    recipient: 'Deutsche Post AG',
+    description: 'Shipping fee',
+    date: new Date('2025-12-01'),
+    status: 'completed'
+  },
+  {
+                                                                                                      id: '271',
+    type: 'payment',
+    amount: 6.19,
+    recipient: 'Deutsche Post AG',
+    description: 'Shipping fee',
+    date: new Date('2025-12-01'),
+    status: 'completed'
+  },
+  {
+                                                                                                                                                                                                id: '270',
+    type: 'received',
+    amount: 59.35,
+    sender: 'Marit Heinzmann',
+    description: 'Payment received',
+    date: new Date('2025-11-30'),
+    status: 'completed'
+  },
+  {
                                                                                                                                                                                             id: '270',
     type: 'received',
     amount: 23.80,
