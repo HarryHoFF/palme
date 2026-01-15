@@ -21,7 +21,8 @@ const mockTransactions: Transaction[] = [
     date: new Date('2026-01-13'),
     status: 'completed'
   },
-  {                                                                                                                                                                                                                                                                                                                                           id: '270',
+  { 
+    id: '270',
     type: 'received',
     amount: 33.80,
     sender: 'Saskia Walter',
