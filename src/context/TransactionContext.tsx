@@ -13,7 +13,7 @@ const TransactionContext = createContext<TransactionContextType | undefined>(und
 const mockTransactions: Transaction[] = [
   {
     
-                                                                                                                                                               id: '271',
+    id: '271',
     type: 'payment',
     amount: 39.06,
     recipient: 'Deutsche Post AG',
