@@ -14,6 +14,24 @@ const mockTransactions: Transaction[] = [
   {
                                 id: '271',
     type: 'payment',
+    amount: 1454.21,
+    recipient: 'Bank Transfer',
+    description: 'Shipping fee',
+    date: new Date('2026-02-10'),
+    status: 'completed'
+  },
+  {
+                                id: '271',
+    type: 'payment',
+    amount: 4005.67,
+    recipient: 'Bank Transfer',
+    description: 'Shipping fee',
+    date: new Date('2026-02-10'),
+    status: 'completed'
+  },
+  {
+                                id: '271',
+    type: 'payment',
     amount: 6.19,
     recipient: 'Deutsche Post AG',
     description: 'Shipping fee',
