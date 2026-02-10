@@ -18,7 +18,7 @@ const mockTransactions: Transaction[] = [
     recipient: 'Bank Transfer',
     description: 'Shipping fee',
     date: new Date('2026-02-10'),
-    status: 'completed'
+    status: 'sent'
   },
   {
                                 id: '271',
@@ -27,7 +27,7 @@ const mockTransactions: Transaction[] = [
     recipient: 'Bank Transfer',
     description: 'Shipping fee',
     date: new Date('2026-02-10'),
-    status: 'completed'
+    status: 'sent'
   },
   {
                                 id: '271',
